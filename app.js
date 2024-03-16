@@ -18,7 +18,7 @@ app.use(passport.initialize());
 
 //Home Route
 app.get('/', (req, res) => {
-    res.send('My server is running well');
+    res.send('Authentication-jwt-MERN-Stack-Server Running');
 })
 
 //Register Route
